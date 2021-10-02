@@ -82,6 +82,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
             size="small"
             color="primary"
             onClick={() => window.open(place.web_url)}
+            className={classes.text}
           >
             Trip Advisor
           </Button>
@@ -89,6 +90,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
             size="small"
             color="primary"
             onClick={() => window.open(place.website)}
+            className={classes.text}
           >
             Website
           </Button>

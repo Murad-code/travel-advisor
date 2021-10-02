@@ -29,8 +29,8 @@ const List = ({ places, childClicked, isLoading, type, setType, rating, setRatin
         Restaurants, Hotels, & Attractions around you
       </Typography>
       {isLoading ? (
-        <div className="classes loading">
-          <CircularProgress size="5rem" />
+        <div className={classes.loading}>
+          <CircularProgress color="inherit" size="5rem" />
         </div>
       ) : (
         <>

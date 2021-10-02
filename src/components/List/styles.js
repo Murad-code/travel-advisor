@@ -9,14 +9,17 @@ export default makeStyles((theme) => ({
   },
   loading: {
     height: '600px', display: 'flex', justifyContent: 'center', alignItems: 'center',
+    color: '#148E8B'
   },
   container: {
     padding: '25px',
+    height: '90vh',
   },
   marginBottom: {
     marginBottom: '30px',
   },
   list: {
-    height: '75vh', overflow: 'auto',
+    height:'65vh', overflow: 'scroll',
+    border: '1px solid blue'
   },
 }));
